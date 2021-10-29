@@ -148,32 +148,33 @@ a {
      </div>
      
  <div class="card"> 
-   <model-viewer src="Models/K18_TEST_Ver.5.glb?sound=Sound/K18 VOICE.mp3"
-                    autoplay animation-name="" id="interaction" ar ar-modes="scene-viewer webxr quick-look" ios-src="Models/K18.reality"
-                    alt="K18 Fiber Journey" auto-rotate-delay="0" ar-scale="auto"
+    <model-viewer loading="eager" src="Models/Laguna Beach HighSchool Dance_New moves.glb?sound=Sound/Take Me Out to the Ball Game Laguna Beach.mp3" camera-controls
+                   camera-orbit="0deg 90deg 80%" autoplay animation-name="" id="model-viewer" id="reveal" ar ar-modes="scene-viewer webxr quick-look" ios-src="Models/LBHS.reality"
+                    alt="LBHS Baseball" auto-rotate-delay="0" ar-scale="auto"
                     slot= "progress-bar"
-                    style="z-index: 1; width: 100%; height: 500px; position: static; ">
+                    style="z-index: 1; width: 100%; height: 480px; position: static; ">
                     <button slot="ar-button" 
-                    style="z-index: 9; background-color: #FFFFFF; border-radius: 8px; border: 1 px solid white; position: absolute; top: 0; right: 0; height: 40px; width: auto; ">
-                     👆 <b style="color:#FFFFFF;"><strong>AR Click Here</strong>
-                     </button>  
-                     
- </model-viewer>
-   </div>     
+                    style="z-index: 9; background-color: #0095D7; border-radius: 8px; border: 1 px solid white; position: absolute; top: 2px; right: 0; height: 40px; width: auto; ">
 
+                     👆 <b style="color:#FFFFFF;"><strong>AR CLICK HERE</strong></b>
+       </button>   
+               
+   </model-viewer>
+     </div>   
+   
      <section class="attribution">
         <div>
           <span>
-            <h1 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:Avenir Next LT Pro">MEET SOFIA</b></p></h1>
+            <h1 style="text-align: center;" markdown="1"><b style="color:#4f1f26;"><p style="font-family:calibri">Play the Song</b></p></h1>
               <p align="center">
               <span>
               <audio controls autoplay loop id="sound">
-                <source src="Sound/K18 VOICE.mp3"/>
+                <source src="Sound/Take Me Out to the Ball Game Laguna Beach.mp3"/>
               </audio
             ></span> 
              </p>
             </span>
-        </div>
+         </div>
    </section>
    <script>    
         window.addEventListener("load", () => {
