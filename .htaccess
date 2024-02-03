@@ -1,1 +1,1 @@
-<FilesMatch ".+\.(usdz|reality)$"> Header set Content-Type "model/vnd.usdz+zip" "model/vnd.reality .reality" Header set Content-Disposition "attachment" </FilesMatch>
+AddType model/vnd.reality .reality
